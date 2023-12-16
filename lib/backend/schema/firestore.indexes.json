@@ -1,0 +1,32 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Blends",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Blend_type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cost",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "previousBlends",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "nam_of_blend",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date_of_blend",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
